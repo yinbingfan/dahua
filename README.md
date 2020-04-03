@@ -1,6 +1,6 @@
-# huashu
+# y
 
-> huashu
+> A Vue.js project
 
 ## Build Setup
 

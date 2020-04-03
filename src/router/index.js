@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import Layout from '../pages/layout'
 import Home from '@/pages/index'
 import About from '@/pages/about'
 import Application from '@/pages/application'
@@ -14,7 +15,17 @@ export default new Router({
     {
       path: '/',
       name: 'Home',
-      component: Home
+      component: Layout,
+      meta: {
+        title: '首页'
+      },
+      children: [
+        {
+          path: '/',
+          name: 'home',
+          component: Home
+        }
+      ]
     },
     {
       path: '/About',
