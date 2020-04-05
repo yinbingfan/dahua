@@ -10,13 +10,13 @@
 </template>
 <script>
 export default {
-    data(){
-      return{
-        lists:[
-          'http://www-x-huashutech-x-com.img.abc188.com/UploadFiles/001.jpg'
-        ]
-      }
+  data () {
+    return {
+      lists: [
+        'http://www-x-huashutech-x-com.img.abc188.com/UploadFiles/001.jpg'
+      ]
     }
+  }
 }
 </script>
 <style>
