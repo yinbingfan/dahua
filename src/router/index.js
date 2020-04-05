@@ -11,57 +11,53 @@ import Recommend from '@/pages/recommend'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
+  routes: [{
+    path: '/',
+    component: Layout,
+    meta: {
+      title: '首页'
+    },
+    children: [{
       path: '/',
-      name: 'Home',
-      component: Layout,
-      meta: {
-        title: '首页'
-      },
-      children: [
-        {
-          path: '/',
-          name: 'home',
-          component: Home
-        }
-      ]
-    },
-    {
-      path: '/About',
-      name: 'About',
-      component: About
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: About
-    },
-    {
-      path: '/application',
-      name: 'Application',
-      component: Application
-    },
-    {
-      path: '/case',
-      name: 'case',
-      component: Case
-    },
-    {
-      path: '/information',
-      name: 'information',
-      component: Information
-    },
-    {
-      path: '/program',
-      name: 'Program',
-      component: Program
-    },
-    {
-      path: '/recommend',
-      name: 'recommend',
-      component: Recommend
-    }
+      name: 'home',
+      component: Home
+    }]
+  },
+  {
+    path: '/About',
+    name: 'About',
+    component: About
+  },
+  {
+    path: '/about',
+    name: 'about',
+    component: About
+  },
+  {
+    path: '/application',
+    name: 'Application',
+    component: Application
+  },
+  {
+    path: '/case',
+    name: 'case',
+    component: Case
+  },
+  {
+    path: '/information',
+    name: 'information',
+    component: Information
+  },
+  {
+    path: '/program',
+    name: 'Program',
+    component: Program
+  },
+  {
+    path: '/recommend',
+    name: 'recommend',
+    component: Recommend
+  }
 
   ]
 })

@@ -1,88 +1,272 @@
 <template>
-  <div id="footer_container">
-    <div class="container">
-      <div class="footer_box_top">
-        <div class="footer_box_left">
-          <img
-            class="footer_box_left_img"
-            src="https://guigug.oss-cn-qingdao.aliyuncs.com/20200107160649.svg"
-            alt=""
-          />
-          <div class="footer_box_left_company_box">
-            <div class="footer_box_left_company_info">
-              <div class="footer_box_left_company_info_title">西安 | 总部</div>
-              <div class="footer_box_left_company_info_tel">029-88169965</div>
-            </div>
-            <div class="footer_box_left_company_dec">
-              陕西省西安市高新区丈八街办丈八一路绿地蓝海大厦23楼12311室
-            </div>
-          </div>
-          <div class="footer_box_left_company_box">
-            <div class="footer_box_left_company_info">
-              <div class="footer_box_left_company_info_title">
-                成都 | 分公司
+  <div>
+    <div class="bot_nav">
+      <div class="bot_nav_com">
+        <div class="bot_nav_left">
+          <div class="intro bot_block">
+            <div class="bot_title">关于我们</div>
+            <div class="bot_show" id="box_botIntro">
+              <div
+
+                class="columnSpace"
+                id="elem-FrontComContent_list01-1489475240537"
+                name="通用内容列表"
+              >
+                <div id="FrontComContent_list01-1489475240537" class="FrontComContent_list01-d1_c1">
+                  <div class="menu-first">
+                    <ul class="list2">
+                      <li class="menu-none">
+                        <a
+                          id="comContent2_2"
+                          href="/a/about/about01"
+                          title="公司介绍"
+                          class="menu-text1 current"
+                        >公司介绍</a>
+                      </li>
+                      <li class="menu-none">
+                        <a
+                          id="comContent2_5"
+                          href="/a/about/about02"
+                          title="企业荣誉"
+                          class="menu-text1"
+                        >企业荣誉</a>
+                      </li>
+                      <li class="menu-none">
+                        <a
+                          id="comContent2_6"
+                          href="/a/about/about03"
+                          title="企业文化"
+                          class="menu-text1"
+                        >企业文化</a>
+                      </li>
+                      <li class="menu-none">
+                        <a
+                          id="comContent2_11"
+                          href="/a/about/about04"
+                          title="考核标准"
+                          class="menu-text1"
+                        >考核标准</a>
+                      </li>
+                      <li class="menu-none">
+                        <a
+                          id="comContent2_12"
+                          href="/a/about/about05"
+                          title="质量保证"
+                          class="menu-text1"
+                        >质量保证</a>
+                      </li>
+                      <li class="menu-none">
+                        <a
+                          id="comContent2_15"
+                          href="/a/about/about08"
+                          title="技术团队"
+                          class="menu-text1"
+                        >技术团队</a>
+                      </li>
+                      <li class="menu-none">
+                        <a
+                          id="comContent2_13"
+                          href="/a/about/about06"
+                          title="服务流程"
+                          class="menu-text1"
+                        >服务流程</a>
+                      </li>
+                      <li class="menu-none">
+                        <a
+                          id="comContent2_16"
+                          href="/a/about/about09"
+                          title="合作供应商"
+                          class="menu-text1"
+                        >合作供应商</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div class="footer_box_left_company_info_tel">028-67178983</div>
             </div>
-            <div class="footer_box_left_company_dec">
-              成都市高新区环球中心S2区S9层1401室
+          </div>
+          <div class="botQuq bot_block">
+            <div class="bot_title">公司实力</div>
+            <div class="bot_show" id="box_botQuq">
+              <div
+
+                class="columnSpace"
+                id="elem-FrontProductsCategory_show01-1489475290202"
+                name="商品分类"
+              >
+                <div
+                  id="FrontProductsCategory_show01-1489475290202"
+                  class="FrontProductsCategory_show01-d1_c1"
+                >
+                  <div class="menu-first">
+                    <ul>
+                      <li class="menu-none">
+                        <a href="/a/about/about10/" target="_self" class="menu-text1">公司实力</a>
+                      </li>
+                      <li class="menu-none">
+                        <a href="/a/about/about07/" target="_self" class="menu-text1">社会活动</a>
+                      </li>
+                      <li class="menu-none">
+                        <a href="/a/about/about11/" target="_self" class="menu-text1">行业交流</a>
+                      </li>
+                      <li class="menu-none">
+                        <a href="/a/about/about12/" target="_self" class="menu-text1">公益活动</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="botQuq bot_block">
+            <div class="bot_title">工程案例</div>
+            <div class="bot_show" id="box_botQuq">
+              <div
+                class="columnSpace"
+                id="elem-FrontProductsCategory_show01-1489475290202"
+                name="商品分类"
+              >
+                <div
+                  id="FrontProductsCategory_show01-1489475290202"
+                  class="FrontProductsCategory_show01-d1_c1"
+                >
+                  <div class="menu-first">
+                    <ul>
+                      <li class="menu-none">
+                        <a href="/a/case/case01" target="_self" class="menu-text1">合作客户</a>
+                      </li>
+                      <li class="menu-none">
+                        <a href="/a/case/case02" target="_self" class="menu-text1">施工现场</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="botService bot_block">
+            <div class="bot_title">新闻资讯</div>
+            <div class="bot_show" id="box_boPro">
+              <div
+
+                class="columnSpace"
+                id="elem-FrontNewsCategory_tree01-1489475351810"
+                name="资讯分类"
+              >
+                <div
+                  id="FrontNewsCategory_tree01-1489475351810"
+                  class="FrontNewsCategory_tree01-d1_c1"
+                >
+                  <div class="menu-first">
+                    <ul>
+                      <li class="menu-none">
+                        <a href="/a/news/news01/" target="_self" class="menu-text1">技术论文</a>
+                      </li>
+                      <li class="menu-none">
+                        <a href="/a/news/news02/" target="_self" class="menu-text1">行业动态</a>
+                      </li>
+                      <li class="menu-none">
+                        <a href="/a/news/news03/" target="_self" class="menu-text1">最新公告</a>
+                      </li>
+                      <li class="menu-none">
+                        <a href="/a/news/news04/" target="_self" class="menu-text1">公司新闻</a>
+                      </li>
+                      <li class="menu-none">
+                        <a href="/a/news/news05/" target="_self" class="menu-text1">政策法规</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="botNews bot_block">
+            <div class="bot_title">防治知识</div>
+            <div class="bot_show" id="box_botNews">
+              <div
+
+                class="columnSpace"
+                id="elem-FrontNewsCategory_tree01-1489475509262"
+                name="资讯分类"
+              >
+                <div
+                  id="FrontNewsCategory_tree01-1489475509262"
+                  class="FrontNewsCategory_tree01-d1_c1"
+                >
+                  <div class="menu-first">
+                    <ul>
+                      <li class="menu-none">
+                        <a href="/a/knowledge/knowledge01" target="_self" class="menu-text1">白蚁知识</a>
+                      </li>
+                      <li class="menu-none">
+                        <a href="/a/knowledge/knowledge02" target="_self" class="menu-text1">四害知识</a>
+                      </li>
+                      <li class="menu-none">
+                        <a href="/a/knowledge/knowledge03" target="_self" class="menu-text1">其他知识</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="botContact bot_block">
+            <div class="bot_title">联系我们</div>
+            <div class="bot_show" id="box_botContact">
+              <div
+
+                class="columnSpace"
+                id="elem-FrontComContent_list01-1489475538627"
+                name="通用内容列表"
+              >
+                <div id="FrontComContent_list01-1489475538627" class="FrontComContent_list01-d1_c1">
+                  <div class="menu-first">
+                    <ul class="list2">
+                      <li class="menu-none">
+                        <a
+                          id="comContent2_1"
+                          href="/a/contact/"
+                          title="联系我们"
+                          class="menu-text1 current"
+                        >联系我们</a>
+                      </li>
+                      <li class="menu-none">
+                        <a
+                          id="comContent2_4"
+                          href="/plus/diy.php?action=post&amp;diyid=1"
+                          title="客户留言"
+                          class="menu-text1"
+                        >客户留言</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="footer_box_min">
-          <div class="footer_box_min_title">热门产品</div>
-          <div class="footer_box_min_item">职卓加盟商平台</div>
-          <div class="footer_box_min_item">职卓商户APP</div>
-          <div class="footer_box_min_item">职卓用户端APP</div>
-          <div class="footer_box_min_item">医点数据平台</div>
-          <div class="footer_box_min_item">医院HIS系统</div>
+        <!--end bot_nav_left-->
+        <div id="box_bot_contact">
+          <div  class="columnSpace" id="elem-FrontSpecifies_show01-1489475551081" name="说明页">
+            <div id="FrontSpecifies_show01-1489475551081" class="FrontSpecifies_show01-d1_c1">
+              <p
+                style="padding-bottom: 15px; line-height: 25px; color: #fff; font-size: 14px;"
+              >西安华数电子科技有限公司</p>
+              <p style="line-height: 23px;text-align: left;">
+                <b>公司地址：</b> 西安市凤城二路海璟国际A3015
+                <br />咨询电话：13325490898
+                <br />客服电话：15002934566
+                <br />传&nbsp;&nbsp;&nbsp;&nbsp; 真：029-86277886
+                <br />邮&nbsp;&nbsp;&nbsp; &nbsp;箱：
+                <a style="color:#a2a2a2" href="695810003@qq.com">695810003@qq.com</a>
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="footer_box_min">
-          <div class="footer_box_min_title">解决方案</div>
-          <div class="footer_box_min_item">人脸识别解决方案</div>
-          <div class="footer_box_min_item">零售ERP解决方案</div>
-          <div class="footer_box_min_item">医药合规解决方案</div>
-          <div class="footer_box_min_item">人力资源SAAS</div>
-          <div class="footer_box_min_item">人力外包</div>
-        </div>
-        <div class="footer_box_min">
-          <div class="footer_box_min_title">发现更多</div>
-          <div class="footer_box_min_item">归毂简介</div>
-          <div class="footer_box_min_item">联系我们</div>
-          <div class="footer_box_min_item">归毂案例</div>
-          <div class="footer_box_min_item">归毂动态</div>
-          <div class="footer_box_min_item">企业文化</div>
-        </div>
-        <div class="footer_box_right">
-          <div class="footer_box_title">关注分享</div>
-          <img
-            class="footer_box_right_img"
-            src="https://guigug.oss-cn-qingdao.aliyuncs.com/20180829103723.png"
-            alt=""
-          />
-          <div class="footer_box_right_info">西安归毂微信公众号</div>
-        </div>
+        <!--end bot_nav_contact-->
+        <div class="clear"></div>
       </div>
-      <div class="footer_box_bottom">
-        <div class="footer_box_bottom_link">
-          <div class="footer_box_bottom_link_title">友情链接：</div>
-          <div class="footer_box_bottom_link_item">归毂智能</div>
-          <div class="footer_box_bottom_link_item">陕西职卓人力资源</div>
-          <div class="footer_box_bottom_link_item">新海开源平台</div>
-          <div class="footer_box_bottom_link_item">药仁当归</div>
-        </div>
-        <div class="footer_box_bottom_copyright">
-          @Copyright 2020 西安归毂智能科技有限公司
-        </div>
-        <div class="footer_box_bottom_ba">
-          <a
-            class="hover-item hover-item-line"
-            target="_black"
-            href="http://www.beian.miit.gov.cn"
-            >备案号：陕ICP备18006106号</a
-          >
-        </div>
-      </div>
+      <!--end bot_nav_com-->
     </div>
   </div>
 </template>
@@ -97,4 +281,5 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+</style>
