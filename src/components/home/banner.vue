@@ -13,26 +13,16 @@ export default {
   data () {
     return {
       lists: [
-        'http://www-x-huashutech-x-com.img.abc188.com/UploadFiles/001.jpg'
+        'http://www-x-huashutech-x-com.img.abc188.com/UploadFiles/001.jpg',
+        'http://www-x-huashutech-x-com.img.abc188.com/UploadFiles/08.jpg',
+        'http://www-x-huashutech-x-com.img.abc188.com/UploadFiles/2015-04/admin/2015040614063182593.jpg',
+        'http://www-x-huashutech-x-com.img.abc188.com/UploadFiles/2015-04/admin/2015040615045963354.jpg',
+        'http://www-x-huashutech-x-com.img.abc188.com/UploadFiles/2015-04/admin/2015040613382895959.jpg'
       ]
     }
   }
 }
 </script>
 <style>
-  .el-carousel__item h3 {
-    color: #475669;
-    font-size: 18px;
-    opacity: 0.75;
-    line-height: 300px;
-    margin: 0;
-  }
 
-  .el-carousel__item:nth-child(2n) {
-    background-color: #99a9bf;
-  }
-
-  .el-carousel__item:nth-child(2n+1) {
-    background-color: #d3dce6;
-  }
 </style>

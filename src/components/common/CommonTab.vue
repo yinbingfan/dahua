@@ -8,7 +8,7 @@
           <a class="m2" href="/a/about/about01/">关于我们</a>
         </li>
         <li>
-          <a class="m2" href="/a/about/about10/">行业解决方案</a>
+          <a class="m2" href="/a/about/about10/">执行方案</a>
         </li>
         <li>
           <a class="m3" href="/a/news/">应用领域</a>

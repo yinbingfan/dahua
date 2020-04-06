@@ -1,4 +1,74 @@
 @charset "utf-8";
+@charset "utf-8";
+
+div,
+form,
+p,
+i,
+img,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+table,
+tr,
+td,
+th,
+fieldset,
+label,
+legend,
+select,
+button,
+input {
+  margin: 0;
+  padding: 0
+}
+
+p,
+li,
+div {
+  line-height: 20px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: normal
+}
+
+h1 img,
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img {
+  margin: 0
+}
+
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
+  list-style: none
+}
+
+img,
+a img {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle
+}
 
 * {
   margin: 0;
@@ -89,7 +159,13 @@ span.right {
 .common-content{
   min-height: 650px;
 }
-
+.fullSlide {
+  position: relative;
+  width: 100%;
+  height: 295px;
+  overflow: hidden;
+  text-align: center;
+}
 .top-com {
   width: 1000px;
   margin: 0 auto;
@@ -110,34 +186,37 @@ span.right {
 }
 
 .cc-head {
-  min-width: 1200px;
+  min-width: 1260px;
   height: 123px;
 }
 
 .head-com {
-  width: 1200px;
+  width: 1260px;
+  height: 123px;
   margin: 0 auto;
 }
 
 #box_cc_logo {
   width: 674px;
   float: left;
+  line-height: 123px;
 }
 
 #box_hotline {
-  width: 220px;
+  width: 320px;
+  line-height: 123px;
   float: right;
 }
 
 /* .cc-nav{min-width:1160px; height:48px; background:#1B9D6F;} */
 .cc-nav {
-  min-width: 1160px;
+  min-width: 1260px;
   height: 48px;
-  background: #1B9D6F;
+  background: #232e52;
 }
 
 .cc-nav ul {
-  width: 1160px;
+  width: 1260px;
   margin: 0 auto;
   height: 36px;
 }
@@ -162,7 +241,7 @@ span.right {
 
 .cc-nav li a:hover {
   color: #fff;
-  background: #f9b916;
+  background: #3ca7ff;
 }
 
 #box_index_banner {
@@ -242,7 +321,7 @@ span.right {
 
 .index-intro {
   width: 100%;
-  background: url(/templets/default/images/index_intro_bg.jpg);
+  background: url(../../../static/image/index_intro_bg.jpg);
   padding: 48px 0 40px 0;
 }
 
@@ -256,7 +335,7 @@ h1.index-title {
 }
 
 .index-intro .index-title {
-  background: url(/templets/default/images/index_intro_title.png) center no-repeat;
+  background: url(../../../static/image/index_intro_title.png) center no-repeat;
 }
 
 #box_index_intro {
