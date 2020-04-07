@@ -20,43 +20,75 @@ export default new Router({
     children: [{
       path: '/',
       name: 'home',
-      component: Home
+      component: Home,
+      meta: {
+        name: '首页',
+        title: '首页'
+      }
     }]
   },
   {
     path: '/About',
     name: 'About',
-    component: About
+    component: About,
+    meta: {
+      name: '推荐产品',
+      title: '推荐产品'
+    }
   },
   {
     path: '/about',
     name: 'about',
-    component: About
+    component: About,
+    meta: {
+      name: '推荐产品',
+      title: '推荐产品'
+    }
   },
   {
     path: '/application',
     name: 'Application',
-    component: Application
+    component: Application,
+    meta: {
+      name: '推荐产品',
+      title: '推荐产品'
+    }
   },
   {
     path: '/case',
     name: 'case',
-    component: Case
+    component: Case,
+    meta: {
+      name: '推荐产品',
+      title: '推荐产品'
+    }
   },
   {
     path: '/information',
     name: 'information',
-    component: Information
+    component: Information,
+    meta: {
+      name: '推荐产品',
+      title: '推荐产品'
+    }
   },
   {
     path: '/program',
     name: 'Program',
-    component: Program
+    component: Program,
+    meta: {
+      name: '推荐产品',
+      title: '推荐产品'
+    }
   },
   {
     path: '/recommend',
     name: 'recommend',
-    component: Recommend
+    component: Recommend,
+    meta: {
+      name: '推荐产品',
+      title: '推荐产品'
+    }
   }
 
   ]

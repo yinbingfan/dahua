@@ -9,22 +9,22 @@
              <router-link class="m2" to='/about'>关于我们</router-link>
         </li>
         <li>
-          <a class="m2" href="#">执行方案</a>
+           <router-link class="m2" to='/about'>执行方案</router-link>
         </li>
         <li>
-          <a class="m3" href="#">应用领域</a>
+           <router-link class="m3" to='/about'>应用领域</router-link>
         </li>
         <li>
-          <a class="m5" href="#">行业资讯</a>
+           <router-link class="m5" to='/about'>行业资讯</router-link>
         </li>
         <li>
-          <a class="m6" href="#">经典案例</a>
+           <router-link class="m6" to='/about'>经典案例</router-link>
         </li>
         <li>
-          <a class="m6" href="#">推荐产品</a>
+           <router-link class="m6" to='/about'>推荐产品</router-link>
         </li>
         <li class="last">
-          <a class="m6" href="#">联系我们</a>
+           <router-link class="m6" to='/about'>联系我们</router-link>
         </li>
       </ul>
     </div>
