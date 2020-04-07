@@ -2,7 +2,7 @@
   <section id="choose_container" class="title_padding smove" style="opacity: 1; transition: all 1s ease 0s, opacity 1.5s ease 0s;">
             <div class="section_title">
                 <div class="hover-item">
-                    选择归毂，以专业铸造品牌
+                    选择华数，以专业铸造品牌
                 </div>
                 <img src="https://standard.guigug.com/material/2020113692317.svg" alt="">
             </div>

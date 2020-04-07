@@ -2,10 +2,11 @@
   <div class="cc-nav">
       <ul>
         <li>
-          <a class="m2" href="/">网站首页</a>
+          <!-- <a class="m2" href="/">网站首页</a> -->
+          <router-link class="m2" to='/'>网站首页</router-link>
         </li>
         <li>
-          <a class="m2" href="#">关于我们</a>
+             <router-link class="m2" to='/about'>关于我们</router-link>
         </li>
         <li>
           <a class="m2" href="#">执行方案</a>
