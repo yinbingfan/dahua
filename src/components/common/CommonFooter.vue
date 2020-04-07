@@ -18,7 +18,7 @@
                       <li class="menu-none">
                         <a
                           id="comContent2_2"
-                          href="/a/about/about01"
+                          href='/'
                           title="公司介绍"
                           class="menu-text1 current"
                         >公司介绍</a>
@@ -26,7 +26,7 @@
                       <li class="menu-none">
                         <a
                           id="comContent2_5"
-                          href="/a/about/about02"
+                           href='/'
                           title="企业荣誉"
                           class="menu-text1"
                         >企业荣誉</a>
@@ -42,7 +42,7 @@
                       <li class="menu-none">
                         <a
                           id="comContent2_11"
-                          href="/a/about/about04"
+                          href='/'
                           title="考核标准"
                           class="menu-text1"
                         >考核标准</a>
@@ -50,7 +50,7 @@
                       <li class="menu-none">
                         <a
                           id="comContent2_12"
-                          href="/a/about/about05"
+                           href='/'
                           title="质量保证"
                           class="menu-text1"
                         >质量保证</a>
@@ -58,7 +58,7 @@
                       <li class="menu-none">
                         <a
                           id="comContent2_15"
-                          href="/a/about/about08"
+                          href='/'
                           title="技术团队"
                           class="menu-text1"
                         >技术团队</a>
@@ -66,7 +66,7 @@
                       <li class="menu-none">
                         <a
                           id="comContent2_13"
-                          href="/a/about/about06"
+                          href='/'
                           title="服务流程"
                           class="menu-text1"
                         >服务流程</a>
@@ -74,7 +74,7 @@
                       <li class="menu-none">
                         <a
                           id="comContent2_16"
-                          href="/a/about/about09"
+                          href='/'
                           title="合作供应商"
                           class="menu-text1"
                         >合作供应商</a>
@@ -101,16 +101,16 @@
                   <div class="menu-first">
                     <ul>
                       <li class="menu-none">
-                        <a href="/a/about/about10/" target="_self" class="menu-text1">公司实力</a>
+                        <a href='/' target="_self" class="menu-text1">公司实力</a>
                       </li>
                       <li class="menu-none">
-                        <a href="/a/about/about07/" target="_self" class="menu-text1">社会活动</a>
+                        <a  href='/' target="_self" class="menu-text1">社会活动</a>
                       </li>
                       <li class="menu-none">
-                        <a href="/a/about/about11/" target="_self" class="menu-text1">行业交流</a>
+                        <a  href='/' target="_self" class="menu-text1">行业交流</a>
                       </li>
                       <li class="menu-none">
-                        <a href="/a/about/about12/" target="_self" class="menu-text1">公益活动</a>
+                        <a  href='/' target="_self" class="menu-text1">公益活动</a>
                       </li>
                     </ul>
                   </div>
@@ -133,10 +133,10 @@
                   <div class="menu-first">
                     <ul>
                       <li class="menu-none">
-                        <a href="/a/case/case01" target="_self" class="menu-text1">合作客户</a>
+                        <a  href='/' target="_self" class="menu-text1">合作客户</a>
                       </li>
                       <li class="menu-none">
-                        <a href="/a/case/case02" target="_self" class="menu-text1">施工现场</a>
+                        <a  href='/' target="_self" class="menu-text1">施工现场</a>
                       </li>
                     </ul>
                   </div>
@@ -160,19 +160,19 @@
                   <div class="menu-first">
                     <ul>
                       <li class="menu-none">
-                        <a href="/a/news/news01/" target="_self" class="menu-text1">技术论文</a>
+                        <a  href='/' target="_self" class="menu-text1">技术论文</a>
                       </li>
                       <li class="menu-none">
-                        <a href="/a/news/news02/" target="_self" class="menu-text1">行业动态</a>
+                        <a  href='/' target="_self" class="menu-text1">行业动态</a>
                       </li>
                       <li class="menu-none">
-                        <a href="/a/news/news03/" target="_self" class="menu-text1">最新公告</a>
+                        <a  href='/' target="_self" class="menu-text1">最新公告</a>
                       </li>
                       <li class="menu-none">
-                        <a href="/a/news/news04/" target="_self" class="menu-text1">公司新闻</a>
+                        <a  href='/' target="_self" class="menu-text1">公司新闻</a>
                       </li>
                       <li class="menu-none">
-                        <a href="/a/news/news05/" target="_self" class="menu-text1">政策法规</a>
+                        <a  href='/' target="_self" class="menu-text1">政策法规</a>
                       </li>
                     </ul>
                   </div>
@@ -196,13 +196,13 @@
                   <div class="menu-first">
                     <ul>
                       <li class="menu-none">
-                        <a href="/a/knowledge/knowledge01" target="_self" class="menu-text1">白蚁知识</a>
+                        <a  href='/' target="_self" class="menu-text1">白蚁知识</a>
                       </li>
                       <li class="menu-none">
-                        <a href="/a/knowledge/knowledge02" target="_self" class="menu-text1">四害知识</a>
+                        <a  href='/' target="_self" class="menu-text1">四害知识</a>
                       </li>
                       <li class="menu-none">
-                        <a href="/a/knowledge/knowledge03" target="_self" class="menu-text1">其他知识</a>
+                        <a  href='/' target="_self" class="menu-text1">其他知识</a>
                       </li>
                     </ul>
                   </div>
@@ -225,7 +225,7 @@
                       <li class="menu-none">
                         <a
                           id="comContent2_1"
-                          href="/a/contact/"
+                          href='/'
                           title="联系我们"
                           class="menu-text1 current"
                         >联系我们</a>
@@ -233,7 +233,7 @@
                       <li class="menu-none">
                         <a
                           id="comContent2_4"
-                          href="/plus/diy.php?action=post&amp;diyid=1"
+                          href='/'
                           title="客户留言"
                           class="menu-text1"
                         >客户留言</a>
