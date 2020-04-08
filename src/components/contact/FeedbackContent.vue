@@ -12,13 +12,13 @@
               <div class="menu-first">
                 <ul class="list2">
                   <li class="menu-none">
-                    <router-link  class="current" to='/contact'>
-                        联系我们
+                    <router-link class="menu-text1" to="../contact">
+                      联系我们
                     </router-link>
                   </li>
                   <li class="menu-none">
-                    <router-link  class="menu-text1" to='/feedback'>
-                        客户留言
+                    <router-link class="current" to="../feedback">
+                      客户留言
                     </router-link>
                   </li>
                 </ul>
