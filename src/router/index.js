@@ -28,21 +28,12 @@ export default new Router({
     }]
   },
   {
-    path: '/About',
-    name: 'About',
-    component: About,
-    meta: {
-      name: '推荐产品',
-      title: '推荐产品'
-    }
-  },
-  {
     path: '/about',
     name: 'about',
     component: About,
     meta: {
-      name: '推荐产品',
-      title: '推荐产品'
+      name: '关于我们',
+      title: '关于我们'
     }
   },
   {
@@ -50,8 +41,8 @@ export default new Router({
     name: 'Application',
     component: Application,
     meta: {
-      name: '推荐产品',
-      title: '推荐产品'
+      name: '执行方案',
+      title: '执行方案'
     }
   },
   {
@@ -59,8 +50,8 @@ export default new Router({
     name: 'case',
     component: Case,
     meta: {
-      name: '推荐产品',
-      title: '推荐产品'
+      name: '经典案例',
+      title: '经典案例'
     }
   },
   {
@@ -68,8 +59,8 @@ export default new Router({
     name: 'information',
     component: Information,
     meta: {
-      name: '推荐产品',
-      title: '推荐产品'
+      name: '行业资讯',
+      title: '行业资讯'
     }
   },
   {
@@ -77,8 +68,8 @@ export default new Router({
     name: 'Program',
     component: Program,
     meta: {
-      name: '推荐产品',
-      title: '推荐产品'
+      name: '执行方案',
+      title: '执行方案'
     }
   },
   {

@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <div>
+    推荐产品
+  </div>
 </template>
 
 <script>

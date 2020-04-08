@@ -6,7 +6,7 @@
   >
     <div class="section_title">
       <div class="hover-item">零售信息化解决方案-零售ERP平台</div>
-      <img src="https://standard.guigug.com/material/2020113692317.svg" alt />
+      <img src="../../../static/image/2020113692317.svg" alt />
     </div>
     <div id="erp_container_center">
       <div class="info_content_item1">
@@ -54,7 +54,7 @@
           <div class="info_content_item1_bottom_item">
             <div
               class="info_content_item1_bottom_item_img"
-              style="background-image: url(&quot;https://standard.guigug.com/material/202019414098.svg&quot;);"
+              style="background-image: url(&quot;../../../static/image/202019414098.svg&quot;);"
             ></div>
             <div class="info_content_item1_bottom_item_content">
               <div class="info_content_item1_bottom_item_content_title">九大渠道按需选择</div>
@@ -66,7 +66,7 @@
           <div class="info_content_item1_bottom_item">
             <div
               class="info_content_item1_bottom_item_img"
-              style="background-image: url(&quot;https://standard.guigug.com/material/202019839361.svg&quot;);"
+              style="background-image: url(&quot;../../../static/image/202019839361.svg&quot;);"
             ></div>
             <div class="info_content_item1_bottom_item_content">
               <div class="info_content_item1_bottom_item_content_title">一体化管理</div>
@@ -78,7 +78,7 @@
           <div class="info_content_item1_bottom_item">
             <div
               class="info_content_item1_bottom_item_img"
-              style="background-image: url(&quot;https://standard.guigug.com/material/202019724344.svg&quot;);"
+              style="background-image: url(&quot;../../../static/image/202019724344.svg&quot;);"
             ></div>
             <div class="info_content_item1_bottom_item_content">
               <div class="info_content_item1_bottom_item_content_title">灵活化运营</div>
@@ -92,7 +92,7 @@
           <div class="info_content_item1_bottom_item">
             <div
               class="info_content_item1_bottom_item_img"
-              style="background-image: url(&quot;https://standard.guigug.com/material/202019339340.svg&quot;);"
+              style="background-image: url(&quot;../../../static/image/202019339340.svg&quot;);"
             ></div>
             <div class="info_content_item1_bottom_item_content">
               <div class="info_content_item1_bottom_item_content_title">多样化商品促销</div>
@@ -104,7 +104,7 @@
           <div class="info_content_item1_bottom_item">
             <div
               class="info_content_item1_bottom_item_img"
-              style="background-image: url(&quot;https://standard.guigug.com/material/202019030794.svg&quot;);"
+              style="background-image: url(&quot;../../../static/image/202019030794.svg&quot;);"
             ></div>
             <div class="info_content_item1_bottom_item_content">
               <div class="info_content_item1_bottom_item_content_title">新型化营销方式</div>
@@ -116,7 +116,7 @@
           <div class="info_content_item1_bottom_item">
             <div
               class="info_content_item1_bottom_item_img"
-              style="background-image: url(&quot;https://standard.guigug.com/material/202019965541.svg&quot;);"
+              style="background-image: url(&quot;../../../static/image/202019965541.svg&quot;);"
             ></div>
             <div class="info_content_item1_bottom_item_content">
               <div class="info_content_item1_bottom_item_content_title">多样化支付方式</div>

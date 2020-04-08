@@ -4,7 +4,7 @@
                 <div class="hover-item">
                     华数科技
                 </div>
-                <img src="https://standard.guigug.com/material/2020113692317.svg" alt="">
+                <img src="../../../static/image/2020113692317.svg" alt="">
             </div>
             <div class="about_group ">
                 <div class="about_group_item">
@@ -57,17 +57,17 @@
 
                 <div class="list">
                     <div class="list_item">
-                        <img src="https://standard.guigug.com/material/202024226812.png" class="img1" alt="">
+                        <img src="../../../static/image/202024226812.png" class="img1" alt="">
                         <div class="list_item_title">使命</div>
                         <div class="list_item_info">改变传统行业移动化和智能化的不足的问题，致力于为各行业提供一站式信息化平台解决方案</div>
                     </div>
                     <div class="list_item">
-                        <img src="https://standard.guigug.com/material/202024197001.png" class="img2" alt="">
+                        <img src="../../../static/image/202024197001.png" class="img2" alt="">
                         <div class="list_item_title">愿景</div>
                         <div class="list_item_info">紧抓时代机会，致力于成为行业引领者，打造多元化发展具有创新能力的技术公司</div>
                     </div>
                     <div class="list_item">
-                        <img src="https://standard.guigug.com/material/202024691784.png" class="img3" alt="">
+                        <img src="../../../static/image/202024691784.png" class="img3" alt="">
                         <div class="list_item_title">价值观</div>
                         <div class="list_item_info">我们秉承知行合一的价值理念，求实务实，力争做好每一款产品，服务好每一位用户</div>
                     </div>

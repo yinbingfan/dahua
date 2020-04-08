@@ -4,7 +4,7 @@
                 <div class="hover-item">
                     选择华数，以专业铸造品牌
                 </div>
-                <img src="https://standard.guigug.com/material/2020113692317.svg" alt="">
+                <img src="../../../static/image/2020113692317.svg" alt="">
             </div>
             <div id="choose_container_center">
                 <div class="choose_item">
