@@ -24,7 +24,7 @@
            <router-link class="m6" to='/recommend'>推荐产品</router-link>
         </li>
         <li class="last">
-           <router-link class="m6" to='/about'>联系我们</router-link>
+           <router-link class="m6" to='/contact'>联系我们</router-link>
         </li>
       </ul>
     </div>

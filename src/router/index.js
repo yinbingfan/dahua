@@ -8,6 +8,7 @@ import Case from '@/pages/case'
 import Information from '@/pages/Information'
 import Program from '@/pages/program'
 import Recommend from '@/pages/recommend'
+import Contact from '@/pages/contact'
 Vue.use(Router)
 
 export default new Router({
@@ -79,6 +80,15 @@ export default new Router({
     meta: {
       name: '推荐产品',
       title: '推荐产品'
+    }
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: Contact,
+    meta: {
+      name: '联系我们',
+      title: '联系我们'
     }
   }
 
