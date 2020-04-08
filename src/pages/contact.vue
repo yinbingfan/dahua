@@ -21,7 +21,6 @@
       </div>
       <div class="cc-content">
         <div class="columnSpace" >
-
             <div class="content">
               <div class="describe">
                 <p>
