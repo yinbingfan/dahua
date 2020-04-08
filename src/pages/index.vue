@@ -1,6 +1,5 @@
 <template>
   <div class="common-content">
-      <index-banner/>
       <technology-about/>
       <industry-solutions/>
       <retail-platform/>
@@ -11,7 +10,6 @@
 </template>
 
 <script>
-import IndexBanner from '../components/home/banner'
 import CompanyProfile from '../components/home/CompanyProfile'
 import TechnologyAbout from '../components/home/TechnologyAbout'
 import IndustrySolutions from '../components/home/IndustrySolutions'
@@ -20,7 +18,6 @@ import IntelligentRecognition from '../components/home/IntelligentRecognition'
 import ChooseBrand from '../components/home/ChooseBrand'
 export default {
   components: {
-    IndexBanner,
     CompanyProfile,
     TechnologyAbout,
     IndustrySolutions,

@@ -2,6 +2,7 @@
   <div>
       <common-header/>
       <common-tab/>
+          <index-banner/>
       <keep-alive>
           <router-view/>
       </keep-alive>
@@ -14,6 +15,7 @@
 <script>
 import CommonHeader from '../components/common/CommonHeader'
 import CommonTab from '../components/common/CommonTab'
+import IndexBanner from '../components/home/banner'
 import CommonFooter from '../components/common/CommonFooter'
 import Copyright from '../components/common/Copyright'
 import CommonBar from '../components/common/CommonBar'
@@ -21,6 +23,7 @@ export default {
   components: {
     CommonHeader,
     CommonTab,
+    IndexBanner,
     CommonFooter,
     Copyright,
     CommonBar

@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import ContactContent from '../components/contact/ContactContent'
+import ContactContent from '../components/contact/FeedbackContent'
 export default {
   components: {
     ContactContent
