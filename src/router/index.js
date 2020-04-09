@@ -32,7 +32,7 @@ export default new Router({
   },
   {
     path: '/about',
-    name: 'about',
+    name: 'About',
     component: Layout,
     children: [
       {
@@ -64,7 +64,7 @@ export default new Router({
   },
   {
     path: '/case',
-    name: 'case',
+    name: 'Case',
     component: Layout,
     children: [
       {
@@ -80,7 +80,7 @@ export default new Router({
   },
   {
     path: '/information',
-    name: 'information',
+    name: 'Information',
     component: Layout,
     children: [
       {
@@ -112,7 +112,7 @@ export default new Router({
   },
   {
     path: '/recommend',
-    name: 'recommend',
+    name: 'Recommend',
     component: Layout,
     children: [
       {
@@ -128,7 +128,7 @@ export default new Router({
   },
   {
     path: '/contact',
-    name: 'contact',
+    name: 'Contact',
     component: Layout,
     children: [
       {
@@ -144,7 +144,7 @@ export default new Router({
   },
   {
     path: '/feedback',
-    name: 'feedback',
+    name: 'Feedback',
     component: Layout,
     children: [
       {

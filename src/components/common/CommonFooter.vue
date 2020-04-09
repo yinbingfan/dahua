@@ -181,7 +181,7 @@
             </div>
           </div>
           <div class="botNews bot_block">
-            <div class="bot_title">防治知识</div>
+            <div class="bot_title">安防知识</div>
             <div class="bot_show" id="box_botNews">
               <div
 
@@ -196,10 +196,10 @@
                   <div class="menu-first">
                     <ul>
                       <li class="menu-none">
-                        <a  href='/' target="_self" class="menu-text1">白蚁知识</a>
+                        <a  href='/' target="_self" class="menu-text1">监控知识</a>
                       </li>
                       <li class="menu-none">
-                        <a  href='/' target="_self" class="menu-text1">四害知识</a>
+                        <a  href='/' target="_self" class="menu-text1">网络知识</a>
                       </li>
                       <li class="menu-none">
                         <a  href='/' target="_self" class="menu-text1">其他知识</a>

@@ -156,9 +156,10 @@ span.right {
   line-height: 35px;
 }
 
-.common-content{
+.common-content {
   min-height: 650px;
 }
+
 .fullSlide {
   position: relative;
   width: 100%;
@@ -166,6 +167,7 @@ span.right {
   overflow: hidden;
   text-align: center;
 }
+
 .top-com {
   width: 1000px;
   margin: 0 auto;
@@ -216,7 +218,7 @@ span.right {
 }
 
 .cc-nav ul {
-  width: 1260px;
+  width: 1180px;
   margin: 0 auto;
   height: 36px;
 }
@@ -474,7 +476,7 @@ h1.index-title {
   color: #a2a2a2;
 }
 
-#box_bot_contact{
+#box_bot_contact {
   color: #a2a2a2;
 }
 
