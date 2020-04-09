@@ -1,0 +1,18 @@
+{
+  "response": true,
+  "data": {
+    "banner": [{
+        "imgUrl": ""
+      },
+      {
+        "imgUrl": ""
+      },
+      {
+        "imgUrl": ""
+      },
+      {
+        "imgUrl": ""
+      }
+    ]
+  }
+}

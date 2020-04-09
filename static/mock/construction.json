@@ -1,0 +1,22 @@
+{
+  "response": true,
+  "data": {
+    "banner": [{
+        "imgUrl": "",
+        "des": ""
+      },
+      {
+        "imgUrl": "",
+        "des": ""
+      },
+      {
+        "imgUrl": "",
+        "des": ""
+      },
+      {
+        "imgUrl": "",
+        "des": ""
+      }
+    ]
+  }
+}

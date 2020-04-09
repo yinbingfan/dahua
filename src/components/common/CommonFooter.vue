@@ -7,12 +7,10 @@
             <div class="bot_title">关于我们</div>
             <div class="bot_show" id="box_botIntro">
               <div
-
                 class="columnSpace"
-                id="elem-FrontComContent_list01-1489475240537"
                 name="通用内容列表"
               >
-                <div id="FrontComContent_list01-1489475240537" class="FrontComContent_list01-d1_c1">
+                <div  class="FrontComContent_list01-d1_c1">
                   <div class="menu-first">
                     <ul class="list2">
                       <li class="menu-none">
@@ -41,7 +39,6 @@
                       </li>
                       <li class="menu-none">
                         <a
-                          id="comContent2_11"
                           href='/'
                           title="考核标准"
                           class="menu-text1"
@@ -49,7 +46,7 @@
                       </li>
                       <li class="menu-none">
                         <a
-                          id="comContent2_12"
+
                            href='/'
                           title="质量保证"
                           class="menu-text1"
@@ -272,12 +269,22 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
   data () {
     return {}
   },
-  mounted () {},
-  methods: {}
+  mounted () {
+    this.getCityInfo()
+  },
+  methods: {
+    getCityInfo () {
+      axios.get('/api/footer.json')
+        .then(res => {
+          console.log(res)
+        })
+    }
+  }
 }
 </script>
 

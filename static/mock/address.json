@@ -1,0 +1,11 @@
+{
+  "response": true,
+  "data": {
+    "address": {
+      "tel": "",
+      "phone": "",
+      "address": "",
+      "email": ""
+    }
+  }
+}

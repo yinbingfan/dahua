@@ -1,0 +1,22 @@
+{
+  "response": true,
+  "data": {
+    "banner": [{
+        "title": "关于我们",
+        "lists": [{
+            "name": "公司介绍"
+          },
+          {
+            "name": "企业荣誉"
+          }
+        ]
+      },
+      {
+        "title": "公司实力",
+        "lists": [{
+          "name": "公司实力"
+        }]
+      }
+    ]
+  }
+}
