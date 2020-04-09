@@ -33,56 +33,98 @@ export default new Router({
   {
     path: '/about',
     name: 'about',
-    component: About,
-    meta: {
-      name: '关于我们',
-      title: '关于我们'
-    }
+    component: Layout,
+    children: [
+      {
+        path: '/about',
+        name: 'about',
+        component: About,
+        meta: {
+          name: '关于我们',
+          title: '关于我们'
+        }
+      }
+    ]
   },
   {
     path: '/application',
     name: 'Application',
-    component: Application,
-    meta: {
-      name: '执行方案',
-      title: '执行方案'
-    }
+    component: Layout,
+    children: [
+      {
+        path: 'application',
+        name: 'application',
+        component: Application,
+        meta: {
+          name: '执行方案',
+          title: '执行方案'
+        }
+      }
+    ]
   },
   {
     path: '/case',
     name: 'case',
-    component: Case,
-    meta: {
-      name: '经典案例',
-      title: '经典案例'
-    }
+    component: Layout,
+    children: [
+      {
+        path: 'case',
+        name: 'case',
+        component: Case,
+        meta: {
+          name: '经典案例',
+          title: '经典案例'
+        }
+      }
+    ]
   },
   {
     path: '/information',
     name: 'information',
-    component: Information,
-    meta: {
-      name: '行业资讯',
-      title: '行业资讯'
-    }
+    component: Layout,
+    children: [
+      {
+        path: '/information',
+        name: 'information',
+        component: Information,
+        meta: {
+          name: '行业资讯',
+          title: '行业资讯'
+        }
+      }
+    ]
   },
   {
     path: '/program',
     name: 'Program',
-    component: Program,
-    meta: {
-      name: '执行方案',
-      title: '执行方案'
-    }
+    component: Layout,
+    children: [
+      {
+        path: '/program',
+        name: 'program',
+        component: Program,
+        meta: {
+          name: '执行方案',
+          title: '执行方案'
+        }
+      }
+    ]
   },
   {
     path: '/recommend',
     name: 'recommend',
-    component: Recommend,
-    meta: {
-      name: '推荐产品',
-      title: '推荐产品'
-    }
+    component: Layout,
+    children: [
+      {
+        path: '/recommend',
+        name: 'recommend',
+        component: Recommend,
+        meta: {
+          name: '推荐产品',
+          title: '推荐产品'
+        }
+      }
+    ]
   },
   {
     path: '/contact',
