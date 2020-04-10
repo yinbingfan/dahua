@@ -30,7 +30,46 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data () {
+    return {
+      nav: [
+        {
+          name: '首页',
+          path: '/'
+        },
+        {
+          name: '关于我们',
+          path: '/'
+        },
+        {
+          name: '执行方案',
+          path: '/'
+        },
+        {
+          name: '应用领域',
+          path: '/'
+        },
+        {
+          name: '行业资讯',
+          path: '/'
+        },
+        {
+          name: '经典案例',
+          path: '/'
+        },
+        {
+          name: '推荐产品',
+          path: '/'
+        },
+        {
+          name: '联系我们',
+          path: '/'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style></style>

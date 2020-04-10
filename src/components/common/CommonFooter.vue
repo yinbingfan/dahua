@@ -269,7 +269,7 @@
 </template>
 
 <script>
-import axios from 'axios'
+import {TECH_FOOTER} from '../../api/api'
 export default {
   data () {
     return {}
@@ -279,10 +279,9 @@ export default {
   },
   methods: {
     getCityInfo () {
-      axios.get('/api/footer.json')
-        .then(res => {
-          console.log(res)
-        })
+      TECH_FOOTER().then(res => {
+        console.log(res.data)
+      })
     }
   }
 }
