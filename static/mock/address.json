@@ -2,10 +2,12 @@
   "response": true,
   "data": {
     "address": {
-      "tel": "",
-      "phone": "",
-      "address": "",
-      "email": ""
+      "tel": "13325490898",
+      "phone": "15002934566",
+      "address": "西安市凤城二路海璟国际A3015",
+      "email": "695810003@qq.com",
+      "fax": "029-86277886",
+      "monitorTelephone": "15002934566"
     }
   }
 }
