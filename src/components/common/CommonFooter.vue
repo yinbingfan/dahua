@@ -248,14 +248,14 @@
             <div id="FrontSpecifies_show01-1489475551081" class="FrontSpecifies_show01-d1_c1">
               <p
                 style="padding-bottom: 15px; line-height: 25px; color: #fff; font-size: 14px;"
-              >西安华数电子科技有限公司</p>
+              >{{addressInfo.name}}</p>
               <p style="line-height: 23px;text-align: left;">
-                <b>公司地址：</b> 西安市凤城二路海璟国际A3015
-                <br />咨询电话：13325490898
-                <br />客服电话：15002934566
-                <br />传&nbsp;&nbsp;&nbsp;&nbsp; 真：029-86277886
+                <b>公司地址：</b> {{addressInfo.address}}
+                <br />咨询电话：{{addressInfo.phone}}
+                <br />客服电话：{{addressInfo.monitorTelephone}}
+                <br />传&nbsp;&nbsp;&nbsp;&nbsp; 真：{{addressInfo.fax}}
                 <br />邮&nbsp;&nbsp;&nbsp; &nbsp;箱：
-                <a style="color:#a2a2a2" href="695810003@qq.com">695810003@qq.com</a>
+                <a style="color:#a2a2a2" :href="addressInfo.email">{{addressInfo.email}}</a>
               </p>
             </div>
           </div>
@@ -269,21 +269,19 @@
 </template>
 
 <script>
-import {TECH_FOOTER} from '../../api/api'
+
 export default {
-  data () {
-    return {}
-  },
-  mounted () {
-    this.getCityInfo()
-  },
-  methods: {
-    getCityInfo () {
-      TECH_FOOTER().then(res => {
-        console.log(res.data)
-      })
+  props: {
+    footerLists: {
+      type: Array,
+      default: () => []
+    },
+    addressInfo: {
+      type: Object,
+      default: () => {}
     }
   }
+
 }
 </script>
 
