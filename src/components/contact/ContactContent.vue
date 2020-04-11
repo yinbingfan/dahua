@@ -4,7 +4,6 @@
       <div class="sub-title">
         <img src="../../../static/image/title_contact.png" />
       </div>
-
       <div class="subnav-wrap">
         <div class="sub-nav" id="box_subNav">
           <div class="columnSpace">
@@ -33,16 +32,16 @@
             <div class="describe">
               <p>
                 <span style="font-size: 20px;line-height: 38px"
-                  ><strong>西安华数电子科技有限公司</strong></span
+                  ><strong>{{addressInfo.name}}</strong></span
                 >
               </p>
               <p style="font-size:16px;line-height: 32px;">
-                <b>公司地址：</b> 西安市凤城二路海璟国际A3015<br />
-                咨询电话：13325490898<br />
-                客服电话：15002934566<br />
-                监督电话：15002934566<br />
-                传 真：029-86277886<br />
-                邮 箱：<a href="695810003@qq.com">695810003@qq.com</a><br />
+                <b>公司地址：</b> {{addressInfo.address}}<br />
+                咨询电话：{{addressInfo.tel}}<br />
+                客服电话：{{addressInfo.monitorTelephone}}<br />
+                监督电话：{{addressInfo.phone}}<br />
+                传 真：{{addressInfo.fax}}<br />
+                邮 箱：<a :href="addressInfo.email">{{addressInfo.email}}</a><br />
               </p>
             </div>
           </div>
@@ -53,7 +52,14 @@
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    addressInfo: {
+      type: Object,
+      default: () => {}
+    }
+  }
+}
 </script>
 
 <style></style>
