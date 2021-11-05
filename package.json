@@ -17,6 +17,7 @@
     "amfe-flexible": "^2.2.1",
     "axios": "^0.19.2",
     "element-ui": "^2.13.0",
+    "jQuery": "^1.7.4",
     "less": "^3.11.1",
     "less-loader": "^5.0.0",
     "postcss-px2rem": "^0.3.0",

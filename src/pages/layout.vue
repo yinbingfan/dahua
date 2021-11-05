@@ -1,6 +1,6 @@
 <template>
   <div>
-      <common-header/>
+      <!-- <common-header/>
       <common-tab/>
           <common-banner :banner="banner"/>
       <keep-alive>
@@ -8,7 +8,7 @@
       </keep-alive>
       <common-footer :footerLists="footerLists" :addressInfo="address"/>
       <copyright/>
-      <common-bar/>
+      <common-bar/> -->
   </div>
 </template>
 
@@ -57,5 +57,5 @@ export default {
 </script>
 
 <style >
-@import '../assets/css/default.css';
+/* @import '../assets/css/default.css'; */
 </style>
