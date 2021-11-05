@@ -9,6 +9,7 @@ import './assets/css/home.css'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import store from './store/index'
+import 'amfe-flexible/index.js'
 Vue.config.productionTip = false
 Vue.use(ElementUI)
 /* eslint-disable no-new */
